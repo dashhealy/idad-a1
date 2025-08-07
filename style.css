@@ -11,7 +11,8 @@ footer {
   font-family: "Google Sans Code", monospace;
   font-size: 18px;
   text-align: center;
-  padding-top: 9px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -19,7 +20,9 @@ h1 {
   font-family: "Google Sans Code", monospace;
   font-size: 30px;
   text-align: center;
-  padding-bottom: 9px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom-style: solid;
 }
 
 p {
@@ -37,13 +40,26 @@ p {
   gap: 30px;
   border-style: solid;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .para2 {
   color: rgb(246, 37, 250);
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#img2 {
+  display: block;
+  margin: auto;
 }
 
 .para3 {
+  display: flex;
   color: rgb(24, 184, 0);
+  gap: 30px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
 }
