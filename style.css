@@ -1,16 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Modak&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap");
 
-body {
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 5% 10%;
-  text-align: justify;
+main {
+  padding: 2% 7%;
+  font-family: "Google Sans Code", monospace;
+}
+
+footer {
+  border-top-style: solid;
+  color: darkgrey;
+  font-family: "Google Sans Code", monospace;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 9px;
 }
 
 h1 {
-  color: powderblue;
-  font-family: "Courier New", Courier, monospace;
-  text-justify: inter-word;
+  color: darkgrey;
+  font-family: "Google Sans Code", monospace;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 9px;
 }
-.firstly {
-  color: antiquewhite;
+
+p {
+  text-align: justify;
+  font-family: "Google Sans Code", monospace;
+}
+
+.para0 {
+  padding: 10px;
+}
+
+.para1 {
+  display: flex;
+  color: rgb(10, 10, 247);
+  gap: 30px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.para2 {
+  color: rgb(246, 37, 250);
+}
+
+.para3 {
+  color: rgb(24, 184, 0);
 }
